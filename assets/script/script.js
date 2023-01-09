@@ -48,18 +48,19 @@ $('.fas').on('click',function(){
 })
 
 // Click event - clear localStorage and display empty itinerary
-// $('.clearBtn').on('click',function(){
-//   localStorage.clear();
-//   $('#hour-9').children('.description').text('')
-// $('#hour-10').children('.description').text('')
-// $('#hour-11').children('.description').text('')
-// $('#hour-12').children('.description').text('')
-// $('#hour-13').children('.description').text('')
-// $('#hour-14').children('.description').text('')
-// $('#hour-15').children('.description').text('')
-// $('#hour-16').children('.description').text('')
-// $('#hour-17').children('.description').text('')
-// })
+$('.clearBtn').on('click',function(){
+  localStorage.clear();
+  $('#hour-9').children('.description').text('')
+  $('#hour-10').children('.description').text('')
+  $('#hour-11').children('.description').text('')
+  $('#hour-12').children('.description').text('')
+  $('#hour-13').children('.description').text('')
+  $('#hour-14').children('.description').text('')
+  $('#hour-15').children('.description').text('')
+  $('#hour-16').children('.description').text('')
+  $('#hour-17').children('.description').text('')
+return;
+})
 
 // Retrieve information and populate textarea with LocalStorage values
 $('#hour-9').children('.description').text(localStorage.getItem('hour-9'))
