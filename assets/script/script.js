@@ -53,7 +53,7 @@ $('.clearBtn').on('click',function(){
   $('#hour-9').children('.description').text('')
 $('#hour-10').children('.description').text('')
 $('#hour-11').children('.description').text('')
-$('#hour-12').children('.description').text(('')
+$('#hour-12').children('.description').text('')
 $('#hour-13').children('.description').text('')
 $('#hour-14').children('.description').text('')
 $('#hour-15').children('.description').text('')
